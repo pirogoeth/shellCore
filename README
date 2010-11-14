@@ -1,0 +1,20 @@
+shellCore.
+
+this is the very BASIC core of miyoko/shellIRC.
+
+this includes the very basics for a simple, working bot:
+  /shellbot.sh
+  /include/libparser.sh
+  /include/libchannel.sh
+  /include/libchat.sh
+  /include/libctcp.sh
+  /etc/core_input
+  /etc/core_config.sh
+
+(referring relatively to /)
+
+config is very much the same, much functionality was removed to 
+create a bare-bones fork of this bot. plus a ^raw trigger was added
+so the end-user could execute irc commands (ex., identify, different 
+commands), so this bot should be great if you want a bare-bones and
+minimal bot.
